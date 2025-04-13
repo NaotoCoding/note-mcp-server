@@ -1,18 +1,19 @@
 {
   "name": "note-mcp-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "start": "node lib/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Note.com MCP server - 記事の内容を取得するMCPサーバー",
   "dependencies": {
-    "fastmcp": "^1.21.0",
-    "swr": "^2.3.3"
+    "cheerio": "^1.0.0-rc.12",
+    "fastmcp": "^1.21.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.1",
