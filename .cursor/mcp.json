@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "note-mcp-server": {
+      "command": "node",
+      "args": ["{path_to_note-mcp-server}/note-mcp-server/lib/index.js"]
+    }
+  }
+}
